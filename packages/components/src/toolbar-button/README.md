@@ -51,7 +51,19 @@ function Edit() {
 
 ## Props
 
-This component accepts [the same API of the Button](/packages/components/src/button/README.md#props) component.
+This component accepts [the same API of the Button](/packages/components/src/button/README.md#props) component, except for the following props:
+
+### `isActive`
+* **Type:** `Boolean`
+* **Default:** `false`
+
+`isActive` is the equivalent of the [Button](/packages/components/src/button/README.md) prop `isPressed`. It renders the button in reverse colors, notifying user that is active, or "pressed".
+
+### `isDisabled`
+* **Type:** `Boolean`
+* **Default:** `false`
+
+`isDisabled` makes button disabled, so it cannot be activated ("pressed").
 
 ## Related components
 
